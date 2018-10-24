@@ -1,0 +1,98 @@
+/* banner */
+
+body{
+    margin: 0px;
+}
+.banner{
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 90px;
+}
+
+h1 {
+    font-family: pacifico;
+    color: #f1f1f1;
+    font-size: 50px; 
+}
+
+.banner > div > p {
+    font-family: roboto;
+    color: #f1f1f1;
+    text-align: left;
+}
+
+.hand{
+    margin-top: 40px;
+}
+/* 
+botão banner */
+
+.botao img {
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.botao img:hover {
+    background-color: #2ECB70;
+}
+
+
+
+/* itens */
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 0px 40px;
+    justify-content: center;
+    
+}
+
+.itens div {
+    flex-grow:1;
+    flex-basis: 150px;
+}
+
+.itens {
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: roboto;
+}
+
+.itens div {
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+
+}
+
+.paragrafo{
+    margin-bottom: 0;
+    color:#BDBDBD;
+}
+
+h3{
+    color: #1f1f1f;
+}
+
+/*imagens*/
+
+
+.itens > div > img{
+    background-color: #2ECB70;
+    padding: 15px;
+    border-radius: 100%;
+}
